@@ -1,0 +1,51 @@
+WIN32_LEAN_AND_MEAN	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^	#define WIN32_LEAN_AND_MEAN$/;"	macro	line:12
+windowWidth	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const GLsizei windowWidth = 1000;$/;"	variable	line:31
+windowHeight	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const GLsizei windowHeight = 950;$/;"	variable	line:32
+leftMouseButton	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const int leftMouseButton = 1;$/;"	variable	line:34
+middleMouseButton	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const int middleMouseButton = 2;$/;"	variable	line:35
+rightMouseButton	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const int rightMouseButton = 3;$/;"	variable	line:36
+rotateX_speed	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const float rotateX_speed = 0.5f;$/;"	variable	line:38
+rotateY_speed	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const float rotateY_speed = 0.5f;$/;"	variable	line:39
+zoomSpeed	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^const float zoomSpeed = 0.1f;$/;"	variable	line:40
+navigating	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^bool navigating = false;$/;"	variable	line:42
+rotateX	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLfloat rotateX = 45.0f;$/;"	variable	line:44
+rotateY	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLfloat rotateY = 45.0f;$/;"	variable	line:45
+zoom	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLfloat zoom = -60.0f;$/;"	variable	line:46
+keys	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Uint8 *keys = NULL; $/;"	variable	line:48
+mainLight	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Light *mainLight = NULL;$/;"	variable	line:50
+controlled	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Control *controlled = NULL;$/;"	variable	line:52
+state	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^MouseState state;$/;"	variable	line:53
+gridList	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLuint gridList = 0;$/;"	variable	line:55
+textureList	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^vector<Texture *> textureList;$/;"	variable	line:57
+emitters	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^vector<Emitter *> emitters;$/;"	variable	line:58
+lstTextures	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^ListBox *lstTextures = NULL;$/;"	variable	line:60
+lstEmitters	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^ListBox *lstEmitters = NULL;$/;"	variable	line:61
+sldLife	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldLife;$/;"	variable	line:63
+sldLifeRange	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldLifeRange;$/;"	variable	line:64
+sldSize	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldSize;$/;"	variable	line:65
+sldSizeRange	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldSizeRange;$/;"	variable	line:66
+sldSpread	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldSpread;$/;"	variable	line:67
+sldSaturation	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldSaturation;$/;"	variable	line:68
+sldEmissionRadius	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldEmissionRadius;$/;"	variable	line:69
+sldEmissionRate	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldEmissionRate;$/;"	variable	line:70
+sldGravity	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldGravity;$/;"	variable	line:71
+sldOffsetX	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldOffsetX;$/;"	variable	line:72
+sldOffsetY	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldOffsetY;$/;"	variable	line:73
+sldOffsetZ	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldOffsetZ;$/;"	variable	line:74
+sldVortex	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldVortex;$/;"	variable	line:75
+sldAlpha	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^Slider *sldAlpha;$/;"	variable	line:76
+establishProjectionMatrix	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid establishProjectionMatrix(GLsizei width, GLsizei height)$/;"	function	line:78	signature:(GLsizei width, GLsizei height)
+setOrtho	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid setOrtho(GLsizei width, GLsizei height)$/;"	function	line:86	signature:(GLsizei width, GLsizei height)
+updateControls	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^void updateControls(void)$/;"	function	line:95	signature:(void)
+updateEmitter	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^void updateEmitter(void)$/;"	function	line:115	signature:(void)
+initializeControls	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^void initializeControls(void)$/;"	function	line:135	signature:(void)
+initGL	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid initGL(GLsizei width, GLsizei height)$/;"	function	line:193	signature:(GLsizei width, GLsizei height)
+handleEvent	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^void handleEvent(Control *control)$/;"	function	line:217	signature:(Control *control)
+displayFPS	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid displayFPS()$/;"	function	line:276	signature:()
+drawCube	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid drawCube()$/;"	function	line:303	signature:()
+drawGrid	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid drawGrid()$/;"	function	line:352	signature:()
+drawControls	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid drawControls()$/;"	function	line:378	signature:()
+drawScene	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLvoid drawScene()$/;"	function	line:406	signature:()
+updateMouseNavigation	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLboolean updateMouseNavigation()$/;"	function	line:478	signature:()
+checkKeys	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^GLboolean checkKeys()$/;"	function	line:524	signature:()
+main	/home/nate/Programming/ParticleEngine/src/ParticleEngineSDL.cpp	/^int main(int argc,  char **argv)$/;"	function	line:552	signature:(int argc, char **argv)
